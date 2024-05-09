@@ -8,16 +8,17 @@ Make sure to install the dependencies:
 
 ```bash
 # npm
+npx npm-check-updates -u
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
+## pnpm
+#pnpm install
+#
+## yarn
+#yarn install
+#
+## bun
+#bun install
 ```
 
 ## Development Server
@@ -26,16 +27,16 @@ Start the development server on `http://localhost:3000`:
 
 ```bash
 # npm
-npm run dev
+npm run dev --open
 
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+## pnpm
+#pnpm run dev
+#
+## yarn
+#yarn dev
+#
+## bun
+#bun run dev
 ```
 
 ## Production
