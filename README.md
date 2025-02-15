@@ -2,15 +2,14 @@
 
 ## Overview
 
-A modern, feature-rich starter template built with [Nuxt 3](https://nuxt.com), designed to jumpstart your web development projects. This template comes pre-configured with essential tools and best practices for building scalable web applications.
+A starter template built with [Nuxt 3](https://nuxt.com), for my needs. So I can quickly start a new project.
 
 ## Features
 
 - [Nuxt 3](https://nuxt.com) - The intuitive Vue framework
 - [TailwindCSS](https://tailwindcss.com) - Utility-first CSS framework
-- Modern development workflow
-- Pre-configured development environment
-- Best practices and optimization out of the box
+- [Pinia](https://pinia.vuejs.org) - Vue state management
+- pre setup directory structure
 
 ## Prerequisites
 
@@ -54,23 +53,18 @@ The application will be available at `http://localhost:3000`
 
 ```
 ├── assets/            # Uncompiled assets
+├────── css/            # CSS files 
 ├── components/        # Vue components
-├── composables/       # Composable functions
 ├── layouts/           # Layout components
 ├── pages/            # Application views
+├── server/            # Server-side files
+├───── api/            # API routes
+├── stores/            # Store files
 ├── plugins/          # Plugin files
-├── public/           # Static files
-└── server/           # Server-side files
+└──  public/           # Static files
 ```
 
 ## Customization
-
-### TailwindCSS
-
-The template includes a basic TailwindCSS configuration. Customize it in:
-- `tailwind.config.js` - TailwindCSS configuration
-- `assets/css/main.css` - Custom TailwindCSS styles
-
 ### Environment Variables
 
 Create a `.env` file in the root directory:
@@ -89,14 +83,6 @@ Preview the production build:
 ```bash
 npm run preview
 ```
-
-## Contributing
-
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
 
 ## License
 
